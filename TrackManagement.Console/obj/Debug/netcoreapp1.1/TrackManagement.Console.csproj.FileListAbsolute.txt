@@ -1,0 +1,9 @@
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.deps.json
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.runtimeconfig.json
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.runtimeconfig.dev.json
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.csprojResolveAssemblyReference.cache
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.AssemblyInfo.cs
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.dll
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.pdb
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.dll
+c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.pdb
