@@ -26,25 +26,18 @@ namespace TrackManagement.Console
 
             foreach(var e in events)
             {
-                if(track.IsPossibleInclude(currentSession, e.Duration))
+                var isPossibleInclude = ManageInclude(currentSession, e, track);
+                if (!isPossibleInclude)
                 {
-                    track.Events.Add(e);
-                }
-                else
-                {
-                    var lunch = new Event("Lunch", 60);
-                    lunch.Session = EventSession.Lunch;
-                    track.Events.Add(lunch);
-
                     if (currentSession == EventSession.Morning)
                     {
+                        var lunch = new Event("Lunch", 60);
+                        lunch.Session = EventSession.Lunch;
+                        track.Events.Add(lunch);
+
                         currentSession = EventSession.Afternoon;
 
-                        if (track.IsPossibleInclude(currentSession, e.Duration))
-                        {
-                            e.Session = currentSession;
-                            track.Events.Add(e);
-                        }
+                        ManageInclude(currentSession, e, track);
                     }
                     else
                     {
@@ -52,23 +45,33 @@ namespace TrackManagement.Console
                         networking.Session = EventSession.Network;
                         track.Events.Add(networking);
 
-                        tracks.Add(track);
+                        var trackCloned = track.Clone();
+
+                        tracks.Add(trackCloned);
 
                         track = new Track("Track 2");
 
                         currentSession = EventSession.Morning;
 
-                        if (track.IsPossibleInclude(currentSession, e.Duration))
-                        {
-                            e.Session = currentSession;
-                            track.Events.Add(e);
-                        }
+                        ManageInclude(currentSession, e, track);
                     }
                 }
             }
 
             return tracks;
+        }
 
+        private static bool ManageInclude(EventSession currentSession, Event e, Track track)
+        {
+            if (track.IsPossibleInclude(currentSession, e.Duration))
+            {
+                e.Session = currentSession;
+                track.Events.Add(e);
+
+                return true;
+            }
+
+            return false;
         }
     }
 }

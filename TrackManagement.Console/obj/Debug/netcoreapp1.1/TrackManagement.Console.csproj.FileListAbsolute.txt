@@ -7,3 +7,12 @@ c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\Tr
 c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.pdb
 c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.dll
 c:\users\felipe.montino\documents\visual studio 2017\Projects\TrackManagement\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.pdb
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.deps.json
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.runtimeconfig.json
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.runtimeconfig.dev.json
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.dll
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\bin\Debug\netcoreapp1.1\TrackManagement.Console.pdb
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.dll
+C:\Users\Felipe\Documents\Visual Studio 2017\Projects\Track-Event-Manager\TrackManagement.Console\obj\Debug\netcoreapp1.1\TrackManagement.Console.pdb

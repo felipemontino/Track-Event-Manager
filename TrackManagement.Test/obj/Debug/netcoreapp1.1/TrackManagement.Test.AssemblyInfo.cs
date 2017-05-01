@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TrackManagement.Console")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TrackManagement.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Package Description")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TrackManagement.Console")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TrackManagement.Console")]
+[assembly: System.Reflection.AssemblyProductAttribute("TrackManagement.Test")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TrackManagement.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

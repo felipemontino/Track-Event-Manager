@@ -42,5 +42,14 @@ namespace TrackManagement.Console
                     && duration + eventDuration <= AFTERNOON_SESSION_DURATION;
             }
         }
+
+        public Track Clone()
+        {
+            var trackNova = new Track(this.Nome);
+
+            trackNova.Events.AddRange(this.Events);
+
+            return trackNova;
+        }
     }
 }
